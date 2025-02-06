@@ -20,7 +20,15 @@ export function App() {
                 id: 'mark',
                 name: 'Markus',
               },
-            }]}
+            },
+            {
+              text: 'Hello',
+              user: {
+                id: 'dan',
+                name: 'Dan',
+              },
+            }
+          ]}
           />
           <MessageInput placeholder="Type message here" />
         </MessageContainer>
